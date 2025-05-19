@@ -1,0 +1,23 @@
+<?php
+$lang = [
+'Keluar' => 'Keluar',
+'Home' => 'Beranda',
+'Master' => 'Master',
+'Perusahaan' => 'perusahaan',
+'Laporan' => 'Laporan',
+'Setting' => 'Pengaturan',
+'Tipe Administrator' => 'Tipe Administrator',
+'Hak Akses Menu' => 'Hak Akses Menu',
+'Administrator' => 'Administrator',
+'Ganti Password' => 'Ganti Password',
+'Distrik' => 'Distrik',
+'Sub Distrik' => 'Sub Distrik',
+'Desa' => 'Desa',
+'Kategori Lowongan' => 'Kategori Lowongan',
+'Data Perusahaan' => 'Data Perusahaan',
+'Lowongan Pekerjaan' => 'Lowongan Pekerjaan',
+'Pemagang' => 'Pemagang',
+'Biodata Pemagang' => 'Biodata Pemagang',
+'Pemagang Diterima' => 'Pemagang Diterima',
+'Pemagang Ditolak' => 'Pemagang Ditolak',
+];

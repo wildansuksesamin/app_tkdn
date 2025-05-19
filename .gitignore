@@ -1,0 +1,24 @@
+mobile/
+lang_manager/
+generator/
+db_structure/
+# /application/config/database.php
+/application/config/env.php
+# assets/uploads/admin/*
+# !assets/uploads/admin/index.html
+# assets/uploads/dokumen/*
+# !assets/uploads/dokumen/index.html
+# assets/uploads/dokumen_admin/*
+# !assets/uploads/dokumen_admin/index.html
+# assets/uploads/template/*
+# !assets/uploads/template/index.html
+# assets/uploads/dokumen_admin/*
+# !assets/uploads/dokumen_admin/index.html
+# assets/uploads/dokumen_survey_lapangan/*
+# !assets/uploads/dokumen_survey_lapangan/index.html
+assets/*
+!assets/css/
+!assets/images/
+!assets/js/
+!assets/media/
+!assets/plugins/

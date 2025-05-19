@@ -1,0 +1,20 @@
+<?php
+$lang = [
+    'Dokumen Penawaran' => 'Dokumen Penawaran',
+    'Tambah Dokumen Penawaran' => 'Tambah Dokumen Penawaran',
+    'Data Dokumen Penawaran' => 'Data Dokumen Penawaran',
+    'Form Dokumen Penawaran' => 'Form Dokumen Penawaran',
+    'Id Pelanggan' => 'Id Pelanggan',
+    'Tgl Pengajuan' => 'Tgl Pengajuan',
+    'Id Tipe Permohonan' => 'Id Tipe Permohonan',
+    'Dokumen Permohonan' => 'Dokumen Permohonan',
+    'Kartu Npwp' => 'Kartu Npwp',
+    'Dokumen Skt' => 'Dokumen Skt',
+    'Dokumen Alamat Antar Invoice' => 'Dokumen Alamat Antar Invoice',
+    'Dokumen Iui Nib' => 'Dokumen IUI Nib',
+    'Dokumen Nomor Izin Edar' => 'Dokumen Nomor Izin Edar',
+    'Dokumen Kontrak Amandemen' => 'Dokumen Kontrak Amandemen',
+    'Nilai Tagihan Kontrak' => 'Nilai Tagihan Kontrak',
+    'Dokumen Komitmen Tkdn' => 'Dokumen Komitmen Tkdn',
+    'Status Pengajuan' => 'Status Pengajuan',
+];
