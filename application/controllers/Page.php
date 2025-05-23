@@ -4062,9 +4062,10 @@ class Page extends MY_Controller
 
             $results['success'] = 'Upload berhasil!';
         }
+        // $data['body_parameter'] = '';
 
         // Tampilkan ulang form dengan status
-        $this->load->view('upload_invoice_faktur_pajak_2', $results);
+        $this->load->view('upload_invoice_faktur_pajak_2', vars: $results);
     } else {
         $this->load->view('upload_invoice_faktur_pajak_2');
     }
