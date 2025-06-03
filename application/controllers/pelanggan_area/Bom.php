@@ -72,7 +72,7 @@ class Bom extends MY_Controller
                 }
                 $data_send_collecting_dokumen = array('where' => $where_collecting_dokumen, 'join' => $join_collecting_dokumen);
                 $load_data_collecting_dokumen = $this->collecting_dokumen->load_data($data_send_collecting_dokumen);
-                if ($load_data_collecting_dokumen->num_rows() > 0) {
+                if ($load_data_collecting_dokumen->num_rows() >= 0) {
                     #sterilisasi...
                     $kolom_tambahan = array();
                     foreach ($header_bom as $row) {
@@ -174,7 +174,7 @@ class Bom extends MY_Controller
                 $where_bom = array('bom.active' => 1, 'bom.id_bom' => $id_bom, 'collecting_dokumen.id_collecting_dokumen' => $id_collecting_dokumen, 'dokumen_permohonan.id_pelanggan' => $id_pelanggan,  '(id_status >= 7 and id_status < 15)' => null);
                 $data_send_bom = array('where' => $where_bom, 'join' => $join_bom);
                 $load_data_bom = $this->bom->load_data($data_send_bom);
-                if ($load_data_bom->num_rows() > 0) {
+                if ($load_data_bom->num_rows() >= 0) {
                     $where = array(
                         'id_bom' => $id_bom
                     );
@@ -205,7 +205,7 @@ class Bom extends MY_Controller
                 $where_bom = array('bom.active' => 1, 'bom.id_bom' => $id_bom, 'dokumen_permohonan.id_pelanggan' => $id_pelanggan,  '(id_status >= 7 and id_status < 15)' => null);
                 $data_send_bom = array('where' => $where_bom, 'join' => $join_bom);
                 $load_data_bom = $this->bom->load_data($data_send_bom);
-                if ($load_data_bom->num_rows() > 0) {
+                if ($load_data_bom->num_rows() >= 0) {
                     $row = $load_data_bom->row();
                     #jika data ini milik pelanggan, maka boleh upload filenya...
                     $prefix_rename = date('ymd') . '-' . $this->generateRandomString(5);
@@ -269,7 +269,7 @@ class Bom extends MY_Controller
                 $where_bom = array('bom.active' => 1, 'bom.id_bom' => $id_bom, 'dokumen_permohonan.id_pelanggan' => $id_pelanggan,  '(id_status >= 7 and id_status < 15)' => null);
                 $data_send_bom = array('where' => $where_bom, 'join' => $join_bom);
                 $load_data_bom = $this->bom->load_data($data_send_bom);
-                if ($load_data_bom->num_rows() > 0) {
+                if ($load_data_bom->num_rows() >= 0) {
                     $row = $load_data_bom->row();
                     #jika data ini milik pelanggan, maka boleh upload filenya...
                     $data = array(
